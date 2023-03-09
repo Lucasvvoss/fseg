@@ -1,0 +1,88 @@
+    .banner {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        position: relative;
+        background-image: url(../assets/Fundo.svg);
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+    }
+
+    .banner__titulo {
+        padding-top: 1em;
+        font-size: 70px;
+        font-weight: 800;
+        color: var(--branco);
+        margin: 0 5em;
+    }
+
+    .texto__vermelho {
+        color: var(--vermelho);
+
+    }
+
+    .banner__texto {
+        color: var(--branco);
+        font-size: 18px;
+        font-weight: 600;
+        margin: 3em 15em;
+        padding: 1em 0;
+    }
+
+    .banner__botao {
+        text-decoration: none;
+        background-color: var(--branco);
+        color: var(--vermelho);
+        border-radius: 2px;
+        padding: 0.8em 1.2em;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0 10em 100px 10em;
+    }
+
+    .banner-lista {
+        background-color: var(--branco);
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 15px;
+        list-style: none;
+        align-items: center;
+        position: absolute;
+        bottom: -50%;
+        transform: translate(-50%, -200%);
+        left: 50%;
+        box-shadow: 0px 10px 15px -8px rgba(0,0,0,0.3);
+    }
+
+    .banner-lista__produtos {
+        padding: 0 3em;
+        border-right: 1px solid #ccc;
+    }
+
+    .banner-lista__produtos:last-child {
+        border-right: none;
+    }
+
+    .banner-lista__imagem {
+        width: 80%;
+    }
+
+    .central-lista {
+        padding-top: 0.5em;
+
+    }
+
+    .banner__lista__botao {
+        color: var(--azul);
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 0.5em;
+        margin-top: 1em;
+    }
+
+    .texto-central {
+        margin-top: 0;
+    }

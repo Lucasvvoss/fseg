@@ -1,0 +1,53 @@
+.quem__somos {
+    display: flex;
+    align-items: center;
+    padding: 10em;
+}
+
+.textos{
+    padding-right: 14em;
+}
+
+.texto__inicial {
+    color: var(--vermelho);
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0;
+}
+
+.titulo__quem__somos {
+    color: var(--azul);
+    font-weight: 800;
+    font-size: 32px;
+    margin-right: 5em ;
+    margin-top: 0;
+}
+
+.titulo__destaque {
+    color: var(--vermelho);
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.texto__destaque {
+    color: var(--azul);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.texto {
+    color: var(--azul);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 3em 0;
+}
+
+.botao__orcamento {
+    border: 2px solid var(--vermelho);
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 0.4em;
+    text-decoration: none;
+}

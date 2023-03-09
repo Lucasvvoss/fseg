@@ -1,0 +1,53 @@
+.rodape {
+    background-color: var(--azul);
+}
+
+.logotipo__rodape{
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+.sobre {
+    display: flex;
+    color: var(--branco);
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 3em;
+}
+
+.texto__sobre {
+
+}
+
+.sobre__empresa {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.sobre__empresa-texto {
+    margin-right: 90em;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.contato__rodape {
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 5em;
+}
+
+
+.direitos {
+    color: var(--branco);
+    border-top: 4px solid var(--vermelho);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5em;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.desenvolvedor__destaque {
+    font-weight: 700;
+    color: var(--vermelho);       
+}

@@ -1,0 +1,47 @@
+.saiba__mais {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.saiba__mais-texto {
+    margin-left: 10em;
+    margin-top: 2em;
+}
+
+.saiba__mais-texto-cima {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--vermelho);
+    margin-bottom: 0;
+}
+
+.Saiba__mais-titulo {
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.saiba__mais-texto-baixo {
+    font-weight: 600;
+    font-size: 14px;
+    padding-right: 10em;
+}
+
+.saiba__mais-botao {
+    margin-top: 7em;
+    margin-bottom: 5em;
+    margin-right: 10em;
+}
+
+.saiba__mais-botao-botao {
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--vermelho);
+    border-radius: 2px;
+    padding: 0.5em 2em;
+}

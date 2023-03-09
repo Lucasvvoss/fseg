@@ -1,0 +1,30 @@
+@import url(./styles/header.css);
+@import url(./styles/banner.css);
+@import url(./styles/quemsomos.css);
+@import url(./styles/fazemos.css);
+@import url(./styles/clientes.css);
+@import url(./styles/seguranca.css);
+@import url(./styles/saibamais.css);
+@import url(./styles/rodape.css);
+
+:root {
+    --branco: #FFFFFF;
+    --vermelho: #B61919;
+    --azul: #012443;
+    --salmao: rgba(255, 101, 103, 0.1);
+    --branco-escuro: #F7F7F7;
+    --preto: #212121;
+    --preto-claro: #2A2A2A;
+    --branco-degrade: linear-gradient(90deg, #F2F2F2 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "open sans";
+    color: var(--preto);
+}

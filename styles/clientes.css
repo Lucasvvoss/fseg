@@ -1,0 +1,39 @@
+.clientes {
+    text-align: center;
+    margin-top: 1em;
+    padding-top: 10em;
+    background-color: var(--branco-escuro);
+}
+
+.clientes__titulo {
+    color: var(--preto-claro);
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.clientes_texto{
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5em;
+}
+
+.mostruario__clientes {
+    background-color: var(--branco);
+    border-radius: 10px;
+    margin-bottom: 8em;
+}
+
+.clientes__fotos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12em;
+    gap: 0.5em;
+    list-style: none;
+}
+
+.cliente {
+    padding: 3em 2em;
+    width: 70%;
+}

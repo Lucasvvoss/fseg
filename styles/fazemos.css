@@ -1,0 +1,54 @@
+.fazemos__tarja {
+    background: var(--branco-degrade);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.titulo__fazemos {
+    margin: 0;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.texto__fazemos {
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.botoes__rosa {
+    display: flex;
+    justify-content: center;
+    list-style: none; 
+    align-items: flex-start;
+}
+
+.texto__botao-rosa {
+    margin-bottom: 0;
+}
+
+.botoes__rosa__link-texto {
+    background-color: var(--salmao);
+    padding: 1em 3em 1em 1em;
+    border-radius: 5px;
+    margin: 2em;
+}
+
+.botoes__rosa__link {
+    background-color: var(--salmao);
+    border-radius: 5px;
+    margin: 2em;
+    margin-bottom: 1em;
+    padding: 1em 3em 1em 1em;
+}
+
+.texto__botao-rosa{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.texto__botao-rosa-especifico {
+    font-weight: 600;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
